@@ -16,6 +16,7 @@ button {
     background-color: #567b95;
     color: white;
     padding: 10px 20px;
+    /*! display: inline-block; */
 }
 
 .d-flex {
@@ -53,7 +54,17 @@ button {
     margin: auto;
     line-height: 1.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /*! font-size: 1.2em; */
+}
+
+.main-section > p {
     font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+.main-section > h2 {
+    padding-bottom: 1em;
+    font-weight: 540;
 }
 
 .main-image-figure {
@@ -173,7 +184,37 @@ button {
     width: 100%;
 }
 
+/* End of Article Comments */
+
 .comments {
-    width: 100%;
+    border: green solid 2px;
+
     justify-content: space-between;
 }
+
+.comments div {
+    width: auto;
+    /*! align-self: end; */
+}
+
+/* Other Article's */
+
+.aside-grid-wrapper {
+    display: grid;
+    grid-template-areas: 
+        "More in Space and Astronomy" "Most Popular"
+        "Editors' Pick"
+}
+
+.more-in-space .grid-container {
+    grid-area: "More in Space and Astronomy";
+}
+
+.editors-pick .grid-container {
+    grid-area: "Editors' Pick";
+}
+
+.most-popular .grid-container {
+    grid-area: "Most Popular";
+}
+
