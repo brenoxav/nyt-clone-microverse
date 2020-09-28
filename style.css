@@ -51,7 +51,9 @@ button {
 .main-section div {
     width: 600px;
     margin: auto;
-    line-height: 2em;;
+    line-height: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
 }
 
 .main-image-figure {
@@ -66,7 +68,8 @@ button {
 }
 
 .article-image-figure {
-    margin: 0;
+    width: 600px;
+    margin: 0 auto;
 }
 
 .article-image-figure img {
@@ -84,10 +87,9 @@ button {
     background-size: contain;
     background-repeat: no-repeat;
     display: grid;
-    /* grid-template-rows:  */
+    grid-template-rows: 408px 168px;
     grid-template-columns: repeat(4, 228px);
-
-    /*! grid-column-gap: ; */
+    grid-column-gap: 1em;
 }
 
 .infographic .grid-wrapper img {
@@ -97,8 +99,24 @@ button {
 
 .infographic .grid-wrapper p {
     font-size: 12px;
-    line-height: 1em;
+    line-height: 1.2em;
+    letter-spacing: 1px;
     width: 100%;
+}
+
+.infographic .grid-wrapper span {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.infographic > p {
+    width: 100%;
+    line-height: 1.2em;
+    font-size: .8em;
+}
+
+.infographic > h3 {
+    margin-bottom: 0;
 }
 
 /*Social links*/
@@ -153,4 +171,9 @@ button {
 
 .main-aside div {
     width: 100%;
+}
+
+.comments {
+    width: 100%;
+    justify-content: space-between;
 }
