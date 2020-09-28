@@ -5,13 +5,25 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #000000;
+    background-color: #ffffff;
+}
+
+main {
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #567b95;
+    color: white;
+    padding: 10px 20px;
 }
 
 .d-flex {
     display: flex;
 }
 
- .navbar .fas {
+ .navbar a {
     padding: 0 15px;
  }
 
@@ -24,5 +36,12 @@
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    background-color: #ffffff;
+    padding: 0 10px;
+}
+
+/* Main Section */
+
+.main-image {
+    max-width: 1200px;
+    height: auto;
 }
