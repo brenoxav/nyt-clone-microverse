@@ -40,8 +40,41 @@ button {
 }
 
 /* Main Section */
+.main-section {
+    width: 600px;
+    margin: 42px auto 0 auto;
+    padding-top: 50px;
+}
 
-.main-image {
-    max-width: 1200px;
+.main-image-figure {
+    /* position: relative; */
+    max-width: 945px;
     height: auto;
+    margin: 0;
+}
+
+.main-image-figure img{
+    width: 100%;
+}
+
+.article-image-figure {
+    margin: 0;
+}
+
+.article-image-figure img {
+    width: 100%;
+}
+
+.infographic {
+    background-image: url(assets/article-2-infographic.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-row: 288px 288px;
+    grid-column: repeat(4, 120px);
+}
+
+.infographic p {
+    background-color: transparent;
+
 }
