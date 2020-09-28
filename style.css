@@ -9,7 +9,6 @@
 }
 
 main {
-    max-width: 945px;
     margin: 0 auto;
 }
 
@@ -41,14 +40,21 @@ button {
 
 /* Main Section */
 .main-section {
-    width: 600px;
+    max-width: 945px;
     margin: 42px auto 0 auto;
     padding-top: 50px;
 }
 
+.main-section h1,
+.main-section p,
+.main-section div {
+    width: 600px;
+    margin: auto;
+}
+
 .main-image-figure {
     /* position: relative; */
-    max-width: 945px;
+    max-width: 100%;
     height: auto;
     margin: 0;
 }
@@ -70,11 +76,25 @@ button {
     background-size: contain;
     background-repeat: no-repeat;
     display: grid;
-    grid-row: 288px 288px;
-    grid-column: repeat(4, 120px);
+    grid-template-rows: 288px 288px;
+    grid-template-columns: repeat(4, 120px);
 }
 
 .infographic p {
     background-color: transparent;
 
+}
+
+/* Main Aside */
+
+.main-aside {
+    float: right;
+    width: 210px;
+    height: 329px;
+    font-size: 14px;
+}
+
+.main-aside img {
+    width: 75px;
+    height: 75px;
 }
