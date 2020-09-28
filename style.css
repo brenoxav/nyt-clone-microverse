@@ -46,10 +46,12 @@ button {
 }
 
 .main-section h1,
+.main-section h2,
 .main-section p,
 .main-section div {
     width: 600px;
     margin: auto;
+    line-height: 2em;;
 }
 
 .main-image-figure {
@@ -85,6 +87,43 @@ button {
 
 }
 
+
+/*Social links*/
+.social-links {
+    padding: 30px 0;
+}
+
+.social-links > p {
+    font-weight: bold;
+}
+
+.social-links div{
+    justify-content: space-between;
+}
+
+.social-links div div{
+    justify-content: flex-end;
+}
+
+.social-icons-round {
+    border-radius: 50%;
+    background-color: #eeeeee;
+}
+
+.social-icons {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    margin: 0 10px;
+}
+
+.social-icons i {
+    background-color: transparent;
+    font-size: 14px;
+}
+
 /* Main Aside */
 
 .main-aside {
@@ -97,4 +136,9 @@ button {
 .main-aside img {
     width: 75px;
     height: 75px;
+    margin-right: 10px;
+}
+
+.main-aside div {
+    width: 100%;
 }
