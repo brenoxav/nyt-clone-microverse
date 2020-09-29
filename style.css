@@ -197,7 +197,7 @@ button {
 /* Other Articles */
 .bottom-width {
     width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .aside-grid-wrapper {
@@ -205,6 +205,11 @@ button {
     grid-template-areas: 
                         "more-in-space-and-astronomy most-popular"
                         "editors-pick most-popular";
+}
+
+.aside-grid-wrapper section {
+    border-top: black 1px solid;
+    margin-top: 1em;
 }
 
 .more-in-space {
@@ -215,8 +220,12 @@ button {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 272px);
-    grid-template-rows: repeat(2, 285px);
     grid-column-gap: 1em;
+}
+
+.more-in-space .grid-container {
+    grid-template-rows: repeat(2, 285px);
+    grid-row-gap: 1em;
 }
 
 .bottom-grid-items figure {
@@ -268,10 +277,35 @@ button {
 }
 
 /* Footer Links */
+
+footer.bottom-width{
+    margin-top: 2em;
+    border-top: double #dddddd 5px;
+    padding-top: 8px;
+}
+
+footer.bottom-width p {
+    text-align: right;
+    margin: 0;
+    color: #999999;
+    font-size: .9em;
+}
+
 footer .d-flex {
     justify-content: space-between;
 }
 
 footer ul {
     padding: 0;
+    flex: 1;
 }
+
+footer article h4 {
+    margin: 1em 0 0;
+}
+
+footer article {
+    font-size: 0.7em;
+    line-height: 2em;
+}
+
