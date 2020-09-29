@@ -1,6 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    list-style-type: none;
     color: #000000;
     background-color: #ffffff;
 }
@@ -214,11 +215,33 @@ button {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 272px);
+    grid-template-rows: repeat(2, 285px);
     grid-column-gap: 1em;
 }
 
 .bottom-grid-items figure {
     margin: 0;
+}
+
+.bottom-grid-items figcaption a {
+    color: #999999;
+    float: right;
+    font-size: .6em;
+    margin: 5px 0;
+}
+
+.bottom-grid-items small {
+    color: #999999;
+    font-size: .7em;
+    margin: 5px 0;
+}
+
+.bottom-grid-items p{
+    margin: 0;
+}
+
+.bottom-grid-items p:nth-of-type(1) {
+    padding-top: 25px;
 }
 
 .bottom-grid-items img {
@@ -231,6 +254,12 @@ button {
     width: 100%;
 }
 
+/* Most Popular Section */
+.most-popular p {
+    border-top: 1px solid #dddddd;
+    padding-top: 16px;
+}
+
 .most-popular {
     grid-area: most-popular;
     width: 315px;
@@ -238,3 +267,11 @@ button {
     margin-left: 30px;
 }
 
+/* Footer Links */
+footer .d-flex {
+    justify-content: space-between;
+}
+
+footer ul {
+    padding: 0;
+}
