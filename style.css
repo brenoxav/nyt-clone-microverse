@@ -65,7 +65,6 @@ button {
 }
 
 .main-image-figure {
-    /* position: relative; */
     max-width: 100%;
     height: auto;
     margin: 0;
@@ -83,6 +82,8 @@ button {
 .article-image-figure img {
     width: 100%;
 }
+
+/* Infographic */
 
 .infographic {
     width: 100%;
@@ -141,7 +142,6 @@ button {
 }
 
 .social-icons-round {
-    /* display: inline-block; */
     background-color: #eeeeee;
     border-radius: 50%;
     
@@ -194,22 +194,47 @@ button {
 }
 
 /* Other Articles */
+.bottom-width {
+    width: 1200px;
+    margin: auto;
+}
+
 .aside-grid-wrapper {
     display: grid;
     grid-template-areas: 
-        "More in Space and Astronomy" "Most Popular"
-        "Editors' Pick"
+                        "more-in-space-and-astronomy most-popular"
+                        "editors-pick most-popular";
 }
 
-.more-in-space .grid-container {
-    grid-area: "More in Space and Astronomy";
+.more-in-space {
+    grid-area: more-in-space-and-astronomy;
+    width: 100%;
 }
 
-.editors-pick .grid-container {
-    grid-area: "Editors' Pick";
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 272px);
+    grid-column-gap: 1em;
 }
 
-.most-popular .grid-container {
-    grid-area: "Most Popular";
+.bottom-grid-items figure {
+    margin: 0;
+}
+
+.bottom-grid-items img {
+    width: 100%;
+    height: auto;
+}
+
+.editors-pick {
+    grid-area: editors-pick;
+    width: 100%;
+}
+
+.most-popular {
+    grid-area: most-popular;
+    width: 315px;
+
+    margin-left: 30px;
 }
 
