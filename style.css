@@ -96,14 +96,18 @@ hr {
     margin-bottom: 1em;
 }
 
+.main-section > p a {
+    color: #326891;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .main-section > p {
     font-size: 1.2em;
-    /* padding-bottom: 1em; */
 }
 
 .main-section > h2 {
-    /* padding-bottom: 1em; */
-    font-weight: 540;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
 .main-section h1 {
@@ -186,12 +190,16 @@ figcaption span {
 
 .infographic > p {
     width: 100%;
-    line-height: 1.2em;
-    font-size: .8em;
+    line-height: 1.4em;
+    font-size: .9em;
+    color: #666666;
+    margin: 5px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .infographic > h3 {
     margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*Social links*/
@@ -270,15 +278,24 @@ figcaption span {
     margin-right: -120px;
     position: relative;
     bottom: 100px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-aside a:hover {
+    text-decoration: underline;
 }
 
 .main-aside div {
     width: 100%;
+    vertical-align: middle;
 }
 
 .main-aside div p {
-    margin: 0;
+    margin: 10px 0;
+    line-height: 1.2em;
+}
+
+.main-aside div a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .main-aside img {
@@ -288,6 +305,17 @@ figcaption span {
 }
 
 /* Comments Section Button and Social Links */
+p.smallprint{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    color: #666666;
+    margin: 5px auto 20px;
+}
+
+p.smallprint a {
+    color: #666666;
+}
+
 .comments button {
     width: 100%;
     height: 36px;
@@ -381,6 +409,9 @@ figcaption span {
 }
 
 /* Footer Links */
+footer a:hover {
+    text-decoration: underline;
+}
 
 footer.bottom-width{
     margin-top: 2em;
