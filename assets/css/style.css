@@ -2,8 +2,8 @@
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   list-style-type: none;
-  color: #000000;
-  background-color: #ffffff;
+  color: #000;
+  background-color: #fff;
 }
 
 /* Global Styles */
@@ -25,12 +25,12 @@ button {
 }
 
 button:hover {
-  background-color: #326891; 
+  background-color: #326891;
   cursor: pointer;
 }
 
 hr {
-  color: #dddddd;
+  color: #ddd;
 }
 
 .d-flex {
@@ -46,13 +46,12 @@ hr {
   position: fixed;
   top: 0;
   left: 0;
-  
   height: 42px;
   justify-content: space-around;
   align-items: center;
   font-weight: bold;
   z-index: 10;
-  border-bottom: solid 1px #dddddd;
+  border-bottom: solid 1px #ddd;
 }
 
 .navbar > div {
@@ -73,15 +72,15 @@ hr {
   margin-right: 20px;
 }
 
- .navbar a {
+.navbar a {
   padding-right: 20px;
   font-size: 0.9em;
- }
+}
 
- .navbar img {
-   width: 195px;
-   height: auto;
- }
+.navbar img {
+  width: 195px;
+  height: auto;
+}
 
 /* Main Section */
 .main-section {
@@ -93,7 +92,7 @@ hr {
 .main-section h1,
 .main-section h2,
 .main-section > p,
-.main-section div {
+section.main-section div {
   width: 600px;
   margin: auto;
   line-height: 1.5em;
@@ -135,7 +134,7 @@ hr {
 .article-image-figure figcaption {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1em;
-  color: #666666;
+  color: #666;
   padding: 0.5em 0;
 }
 
@@ -149,7 +148,7 @@ hr {
 
 figcaption span {
   font-size: 0.8em;
-  color: #999999;
+  color: #999;
 }
 
 /* Infographic */
@@ -173,6 +172,13 @@ figcaption span {
   grid-column-gap: 1em;
   width: 100%;
 }
+.infographic > p {
+  line-height: 1.4em;
+  font-size: .9em;
+  color: #666;
+  margin: 5px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .infographic .grid-wrapper p {
   font-size: 12px;
@@ -193,15 +199,7 @@ figcaption span {
   margin: 0 0 1em 0;
 }
 
-.infographic > p {
-  line-height: 1.4em;
-  font-size: .9em;
-  color: #666666;
-  margin: 5px 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-/*Social links*/
+/* Social links */
 .social-links {
   padding: 10px 0 0 0;
 }
