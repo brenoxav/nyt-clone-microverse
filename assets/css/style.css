@@ -41,47 +41,6 @@ hr {
   width: 100%;
 }
 
-/* Nav Bar */
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 42px;
-  justify-content: space-around;
-  align-items: center;
-  font-weight: bold;
-  z-index: 10;
-  border-bottom: solid 1px #ddd;
-}
-
-.navbar > div {
-  flex: 1;
-}
-
-.navbar div:nth-child(1) {
-  text-align: left;
-  margin-left: 20px;
-}
-
-.navbar div:nth-child(2) {
-  text-align: center;
-}
-
-.navbar div:nth-child(3) {
-  text-align: right;
-  margin-right: 20px;
-}
-
-.navbar a {
-  padding-right: 20px;
-  font-size: 0.9em;
-}
-
-.navbar img {
-  width: 195px;
-  height: auto;
-}
-
 /* Main Section */
 .main-section {
   max-width: 945px;
@@ -92,7 +51,7 @@ hr {
 .main-section h1,
 .main-section h2,
 .main-section > p,
-section.main-section div {
+.main-section div {
   width: 600px;
   margin: auto;
   line-height: 1.5em;
@@ -151,6 +110,47 @@ figcaption span {
   color: #999;
 }
 
+/* Nav Bar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 42px;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  z-index: 10;
+  border-bottom: solid 1px #ddd;
+}
+
+.navbar > div {
+  flex: 1;
+}
+
+.navbar div:nth-child(1) {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.navbar div:nth-child(2) {
+  text-align: center;
+}
+
+.navbar div:nth-child(3) {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.navbar a {
+  padding-right: 20px;
+  font-size: 0.9em;
+}
+
+.navbar img {
+  width: 195px;
+  height: auto;
+}
+
 /* Infographic */
 .infographic {
   margin: 2em 0;
@@ -172,9 +172,10 @@ figcaption span {
   grid-column-gap: 1em;
   width: 100%;
 }
+
 .infographic > p {
   line-height: 1.4em;
-  font-size: .9em;
+  font-size: 0.9em;
   color: #666;
   margin: 5px 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -212,14 +213,13 @@ figcaption span {
   flex: 1;
 }
 
-.social-links > div > div{
+.social-links > div > div {
   justify-content: flex-end;
 }
 
 .social-icons-round {
-  background-color: #eeeeee;
+  background-color: #eee;
   border-radius: 50%;
-  
 }
 
 .social-icons {
@@ -252,12 +252,12 @@ figcaption span {
 
 .subscribe p {
   margin: 0;
-  font-size: .9em;
+  font-size: 0.9em;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.2em
+  line-height: 1.2em;
 }
 
-.subscribe a{
+.subscribe a {
   color: #326891;
 }
 
@@ -301,15 +301,15 @@ figcaption span {
 }
 
 /* Comments Section Button and Social Links */
-p.smallprint{
+p.smallprint {
   font-family: Arial, Helvetica, sans-serif;
   font-size: .7em;
-  color: #666666;
+  color: #666;
   margin: 5px auto 20px;
 }
 
 p.smallprint a {
-  color: #666666;
+  color: #666;
 }
 
 .comments button {
@@ -328,14 +328,14 @@ p.smallprint a {
 
 .aside-grid-wrapper {
   display: grid;
-  grid-template-areas: 
-            "more-in-space-and-astronomy most-popular"
-            "editors-pick most-popular";
+  grid-template-areas:
+    "more-in-space-and-astronomy most-popular"
+    "editors-pick most-popular";
 }
 
 .most-popular a:hover,
 .bottom-grid-items a:hover {
-  color: #999999;
+  color: #999;
 }
 
 .aside-grid-wrapper section {
@@ -363,19 +363,19 @@ p.smallprint a {
 }
 
 .bottom-grid-items figcaption a {
-  color: #999999;
+  color: #999;
   float: right;
-  font-size: .6em;
+  font-size: 0.6em;
   margin: 5px 0;
 }
 
 .bottom-grid-items small {
-  color: #999999;
-  font-size: .7em;
+  color: #999;
+  font-size: 0.7em;
   margin: 5px 0;
 }
 
-.bottom-grid-items p{
+.bottom-grid-items p {
   margin: 0;
 }
 
@@ -399,7 +399,7 @@ p.smallprint a {
 }
 
 .most-popular p {
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #ddd;
   padding-top: 16px;
 }
 
@@ -408,17 +408,17 @@ footer a:hover {
   text-decoration: underline;
 }
 
-footer.bottom-width{
+footer.bottom-width {
   margin-top: 2em;
-  border-top: double #dddddd 5px;
+  border-top: double #ddd 5px;
   padding-top: 8px;
 }
 
 footer.bottom-width p {
   text-align: right;
   margin: 0;
-  color: #999999;
-  font-size: .9em;
+  color: #999;
+  font-size: 0.9em;
 }
 
 footer .d-flex {
@@ -432,54 +432,48 @@ footer ul {
 
 footer article {
   flex: 1;
+  font-size: 0.8em;
+  line-height: 2em;
 }
 
 footer article h4 {
   margin: 1em 0 0;
 }
 
-footer article {
-  font-size: 0.8em;
-  line-height: 2em;
-}
-
 .subscribe-column {
-  border-left: 1px solid #dddddd;
+  border-left: 1px solid #ddd;
   padding-left: 1em;
 }
 
 .subscribe-column svg {
   padding-right: 0.5em;
-}
-
-.subscribe-column ul:nth-of-type(1){
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-.subscribe-column ul:nth-of-type(2){
-  font-size: .8em;
-  border-bottom: 1px solid #dddddd;
-}
-
-.subscribe-column ul:nth-of-type(3){
-  font-size: .8em;
-}
-
-svg {
   width: 13px;
   height: 13px;
   line-height: -2em;
 }
 
+.subscribe-column ul:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.subscribe-column ul:nth-of-type(2) {
+  font-size: 0.8em;
+  border-bottom: 1px solid #ddd;
+}
+
+.subscribe-column ul:nth-of-type(3) {
+  font-size: 0.8em;
+}
+
 /* Footer Nav Links */
 footer nav {
-  border-top: 1px solid #dddddd;
-  font-size: .7em;
+  border-top: 1px solid #ddd;
+  font-size: 0.7em;
   margin: 10px 0 30px;
   padding: 10px 70px;
 }
 
 footer nav a {
-  color: #666666;
+  color: #666;
 }
