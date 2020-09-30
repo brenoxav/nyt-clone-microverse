@@ -29,6 +29,10 @@ button {
     display: flex;
 }
 
+hr {
+    color: #dddddd;
+}
+
 /* Nav Bar */
 
 .navbar {
@@ -130,6 +134,20 @@ button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
     color: #666666;
+    padding: 0.5em 0;
+}
+
+.main-image-figure figcaption {
+    margin-right: 20%;
+}
+
+.article-image-figure figcaption {
+    margin-right: 5%;
+}
+
+figcaption span {
+    font-size: 0.8em;
+    color: #999999;
 }
 
 /* Infographic */
@@ -178,11 +196,15 @@ button {
 
 /*Social links*/
 .social-links {
-    /* padding: 10px 0; */
+    padding: 10px 0 0 0;
 }
 
 .social-links > p {
     font-weight: bold;
+}
+
+.social-links .d-flex {
+    flex: 1;
 }
 
 .social-links > div > div{
@@ -215,11 +237,19 @@ button {
     font-weight: bold;
 }
 
+.subscribe :nth-child(1) {
+    margin-bottom: 1.2em;
+}
+
+.subscribe :nth-child(4) {
+    margin-top: 1.2em;
+}
+
 .subscribe p {
     margin: 0;
-    padding: 0;
     font-size: .9em;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em
 }
 
 .subscribe a{
@@ -240,16 +270,21 @@ button {
     margin-right: -120px;
     position: relative;
     bottom: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-aside div {
+    width: 100%;
+}
+
+.main-aside div p {
+    margin: 0;
 }
 
 .main-aside img {
     width: 75px;
     height: 75px;
     margin-right: 10px;
-}
-
-.main-aside div {
-    width: 100%;
 }
 
 /* Comments Section Button and Social Links */
