@@ -4,7 +4,7 @@
 
 > A clone of the New York Times article page ["Space Ripples Reveal Big Bang’s Smoking Gun"](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html). 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./page-screenshot.png)
 
 ## Built With
 
