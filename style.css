@@ -45,13 +45,27 @@ button {
     border-bottom: solid 1px #dddddd;
 }
 
- .navbar a {
-    padding: 0 15px;
-    font-size: 0.9em;
- }
+.navbar > div {
+    flex: 1;
+}
 
- .NYT-logo {
-    /* logo div class */
+.navbar div:nth-child(1) {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.navbar div:nth-child(2) {
+    text-align: center;
+}
+
+.navbar div:nth-child(3) {
+    text-align: right;
+    margin-right: 20px;
+}
+
+ .navbar a {
+    padding-right: 20px;
+    font-size: 0.9em;
  }
 
  .navbar img {
@@ -73,18 +87,23 @@ button {
     width: 600px;
     margin: auto;
     line-height: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     /*! font-size: 1.2em; */
+    margin-bottom: 1em;
 }
 
 .main-section > p {
     font-size: 1.2em;
-    padding-bottom: 1em;
+    /* padding-bottom: 1em; */
 }
 
 .main-section > h2 {
-    padding-bottom: 1em;
+    /* padding-bottom: 1em; */
     font-weight: 540;
+}
+
+.main-section h1 {
+    font-style: italic;
 }
 
 .main-image-figure {
@@ -153,7 +172,7 @@ button {
 
 /*Social links*/
 .social-links {
-    padding: 30px 0;
+    /* padding: 10px 0; */
 }
 
 .social-links > p {
@@ -182,6 +201,26 @@ button {
 .social-icons i {
     background-color: transparent;
     font-size: 14px;
+}
+
+/* Subscribe Message */
+.subscribe {
+    text-align: center;
+    font-weight: bold;
+}
+
+.subscribe p {
+    margin: 0;
+    padding: 0;
+    font-size: .9em;
+}
+
+.subscribe a{
+    color: #326891;
+}
+
+.subscribe hr {
+    width: 72px;
 }
 
 /* Main Aside */
