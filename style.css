@@ -82,12 +82,12 @@ button {
 
 .main-section h1,
 .main-section h2,
-.main-section p,
+.main-section > p,
 .main-section div {
     width: 600px;
     margin: auto;
     line-height: 1.5em;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
     /*! font-size: 1.2em; */
     margin-bottom: 1em;
 }
@@ -109,7 +109,7 @@ button {
 .main-image-figure {
     max-width: 100%;
     height: auto;
-    margin: 0;
+    margin: 10px 0;
 }
 
 .main-image-figure img{
@@ -118,15 +118,21 @@ button {
 
 .article-image-figure {
     width: 600px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .article-image-figure img {
     width: 100%;
 }
 
-/* Infographic */
+.main-image-figure figcaption,
+.article-image-figure figcaption {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: #666666;
+}
 
+/* Infographic */
 .infographic {
     width: 100%;
 }
@@ -138,7 +144,7 @@ button {
     background-size: contain;
     background-repeat: no-repeat;
     display: grid;
-    grid-template-rows: 408px 168px;
+    grid-template-rows: repeat(4, 144px);
     grid-template-columns: repeat(4, 228px);
     grid-column-gap: 1em;
 }
@@ -213,6 +219,7 @@ button {
     margin: 0;
     padding: 0;
     font-size: .9em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .subscribe a{
