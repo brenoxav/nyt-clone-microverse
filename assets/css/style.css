@@ -308,8 +308,9 @@ p.smallprint {
   margin: 5px auto 20px;
 }
 
-p.smallprint a {
+.smallprint-links {
   color: #666;
+  text-decoration: underline;
 }
 
 .comments button {
@@ -362,7 +363,7 @@ p.smallprint a {
   margin: 0;
 }
 
-.bottom-grid-items figcaption a {
+.caption-links {
   color: #999;
   float: right;
   font-size: 0.6em;
@@ -379,8 +380,12 @@ p.smallprint a {
   margin: 0;
 }
 
-.bottom-grid-items p:nth-of-type(1) {
+.related-titles {
   padding-top: 25px;
+}
+
+.related-titles-font a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .bottom-grid-items img {
