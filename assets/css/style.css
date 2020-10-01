@@ -56,7 +56,7 @@ hr {
   border-bottom: solid 1px #ddd;
 }
 
-.navbar>div {
+.navbar > div {
   flex: 1;
 }
 
@@ -94,8 +94,8 @@ hr {
 
 .main-section h1,
 .main-section h2,
-.main-section>p,
-.main-section>div {
+.main-section > p,
+.main-section > div {
   width: 600px;
   margin: auto;
   line-height: 1.5em;
@@ -103,7 +103,7 @@ hr {
   margin-bottom: 1em;
 }
 
-.main-section>p {
+.main-section > p {
   font-size: 1.2em;
 }
 
@@ -113,7 +113,7 @@ hr {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.main-section>h2 {
+.main-section > h2 {
   font-weight: bold;
   font-size: 1.3em;
 }
@@ -160,7 +160,7 @@ figcaption span {
   margin: 2em 0;
 }
 
-.infographic>h3 {
+.infographic > h3 {
   margin-bottom: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -177,7 +177,7 @@ figcaption span {
   width: 100%;
 }
 
-.infographic>p {
+.infographic > p {
   line-height: 1.4em;
   font-size: 0.9em;
   color: #666;
@@ -210,7 +210,7 @@ figcaption span {
   padding: 10px 0 0 0;
 }
 
-.social-links>p {
+.social-links > p {
   font-weight: bold;
 }
 
@@ -324,7 +324,7 @@ p.smallprint {
   height: 36px;
 }
 
-.comments>div {
+.comments > div {
   justify-content: flex-end;
 }
 
