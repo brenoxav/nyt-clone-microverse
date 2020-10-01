@@ -63,7 +63,7 @@ hr {
   font-size: 1.2em;
 }
 
-.main-section > p a {
+.text-links {
   color: #326891;
   text-decoration: underline;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -181,7 +181,7 @@ figcaption span {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.infographic .grid-wrapper p {
+.info-text {
   font-size: 12px;
   line-height: 1.2em;
   letter-spacing: 1px;
