@@ -491,10 +491,36 @@ footer nav h4 {
 .footer-nav {
   border-top: 1px solid #ddd;
   font-size: 0.7em;
-  margin: 10px 0 30px;
+  margin: 10px 0 80px;
   padding: 10px 70px;
 }
 
 .footer-nav-links {
   color: #666;
+}
+
+.create-account {
+  border: firebrick solid 2px;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  /*! background-color: white; */
+  width: 100%;
+  /*! justify-content: center; */
+  display: flex;
+  justify-content: center;
+}
+
+.create-account-wrapper {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 1200px;
+  position: relative;
+}
+
+.expand-wrapper {
+  
+  position: absolute;
+  right: 5px;
 }
