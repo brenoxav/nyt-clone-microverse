@@ -51,7 +51,7 @@ hr {
 .main-section h1,
 .main-section h2,
 .main-section > p,
-.main-section div {
+.main-section > div {
   width: 600px;
   margin: auto;
   line-height: 1.5em;
@@ -127,16 +127,16 @@ figcaption span {
   flex: 1;
 }
 
-.navbar div:nth-child(1) {
+.nav-menu {
   text-align: left;
   margin-left: 20px;
 }
 
-.navbar div:nth-child(2) {
+.nav-logo {
   text-align: center;
 }
 
-.navbar div:nth-child(3) {
+.nav-login {
   text-align: right;
   margin-right: 20px;
 }
@@ -213,7 +213,7 @@ figcaption span {
   flex: 1;
 }
 
-.social-links > div > div {
+.social-wrapper {
   justify-content: flex-end;
 }
 
@@ -276,25 +276,25 @@ figcaption span {
   bottom: 100px;
 }
 
-.main-aside a:hover {
-  text-decoration: underline;
-}
-
-.main-aside div {
+.main-aside-div {
   vertical-align: middle;
   width: 100%;
 }
 
-.main-aside div p {
+.main-aside-div p {
   margin: 10px 0;
   line-height: 1.2em;
 }
 
-.main-aside div a {
+.main-aside-div a {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.main-aside img {
+.main-aside-div a:hover {
+  text-decoration: underline;
+}
+
+.main-aside-div img {
   width: 75px;
   height: 75px;
   margin-right: 10px;
