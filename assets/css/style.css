@@ -281,23 +281,23 @@ figcaption span {
   width: 100%;
 }
 
+.main-aside-div img {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
 .main-aside-div p {
   margin: 10px 0;
   line-height: 1.2em;
 }
 
-.main-aside-div a {
+.main-aside-links {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.main-aside-div a:hover {
+.main-aside-links:hover {
   text-decoration: underline;
-}
-
-.main-aside-div img {
-  width: 75px;
-  height: 75px;
-  margin-right: 10px;
 }
 
 /* Comments Section Button and Social Links */
@@ -334,8 +334,8 @@ p.smallprint {
     "editors-pick most-popular";
 }
 
-.most-popular a:hover,
-.bottom-grid-items a:hover {
+.most-popular-links:hover,
+.related-titles-link:hover {
   color: #999;
 }
 
