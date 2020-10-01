@@ -426,7 +426,7 @@ footer.bottom-width p {
   font-size: 0.9em;
 }
 
-footer .d-flex {
+.footer-link-wrapper {
   justify-content: space-between;
 }
 
@@ -472,13 +472,13 @@ footer article h4 {
 }
 
 /* Footer Nav Links */
-footer nav {
+.footer-nav {
   border-top: 1px solid #ddd;
   font-size: 0.7em;
   margin: 10px 0 30px;
   padding: 10px 70px;
 }
 
-footer nav a {
+.footer-nav-links {
   color: #666;
 }
